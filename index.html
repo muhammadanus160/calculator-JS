@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>CALCULATOR</h1>
+        <div class="srh">
+            <input readonly type="text" name="" id="inp" class="srchbar">
+        </div>
+        <br>
+        <br>
+        <div class="butn">
+            <button id="spbtn" class="clrbtn" onclick="clrall()">CLEAR ALL</button>
+            <button id="spbtn" class="clrbtn" onclick="clr()">CLEAR</button>
+        </div>
+        <br>
+        
+        <div class="butn">
+            <button onclick="btnclick(7)">7</button>
+            <button onclick="btnclick(8)">8</button>
+            <button onclick="btnclick(9)">9</button>
+            <button id="spbtn" onclick="btnclick('+')">+</button>
+        </div>
+        <br>
+        
+        <div class="butn">
+            <button onclick="btnclick(4)">4</button>
+            <button onclick="btnclick(5)">5</button>
+            <button onclick="btnclick(6)">6</button>
+            <button id="spbtn" onclick="btnclick('-')">-</button>
+        </div>
+        <br>
+        
+        <div class="butn">
+            <button onclick="btnclick(1)">1</button>
+            <button onclick="btnclick(2)">2</button>
+            <button onclick="btnclick(3)">3</button>
+            <button id="spbtn" onclick="btnclick('*')">x</button>
+        </div>
+        <br>
+        
+        <div class="butn">
+            <button id="spbtn" onclick="btnclick('/')">/</button>
+            <button onclick="btnclick(0)">0</button>
+            <button id="spbtn" onclick="btnclick('%')">%</button>
+            <button id="spbtn" onclick="eq()">=</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
