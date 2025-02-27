@@ -1,1 +1,1 @@
-httpsanus-calculatorapp.netlify.app
+https://anus-calculatorapp.netlify.app/
